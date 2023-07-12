@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/inventario"
+        android:icon="@drawable/herramienta"
+        android:title="Inventario" />
+    <item
+        android:id="@+id/agregar"
+        android:icon="@drawable/carrito"
+        android:title="Carrito" />
+    <item
+        android:id="@+id/config"
+        app:lottie_rawRes="@drawable/usuario"
+        android:title="Usuarios" />
+
+
+</menu>

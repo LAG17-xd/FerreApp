@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/settings_item"
+        android:title="Ajustes">
+    </item>
+    <item
+        android:id="@+id/logout1"
+        android:onClick="doThis1"
+        android:title="Registrar Usuarios">
+    </item>
+    <item
+        android:onClick="doThis"
+        android:id="@+id/logout"
+        android:title="Cerrar sesión">
+    </item>
+
+</menu>
