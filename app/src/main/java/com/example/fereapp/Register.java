@@ -22,6 +22,7 @@ import com.google.android.material.textfield.TextInputEditText;
 import java.util.HashMap;
 import java.util.Map;
 
+
 public class Register extends AppCompatActivity {
 
     EditText txtName, txtAge, txtMail, txtPass, txtCPass;

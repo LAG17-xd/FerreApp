@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Construccion"
+    tools:context=".Proteccion"
     tools:layout_editor_absoluteY="25dp"
     android:id="@+id/relativeLayout">
 
@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="30dp"
-        android:text="Construccion"
+        android:text="Proteccion y Vestimenta"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textStyle="bold" />
 
@@ -49,9 +49,9 @@
                 android:paddingVertical="25dp">
 
                 <ImageView
-                    android:layout_width="77dp"
+                    android:layout_width="125dp"
                     android:layout_height="80dp"
-                    android:background="@drawable/pala"
+                    android:background="@drawable/imper"
                     android:padding="20dp" />
 
                 <Space
@@ -61,7 +61,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Pala. cuesta $200"
+                    android:text="impermeable. cuesta $500"
                     android:textAlignment="center" />
 
                 <LinearLayout
@@ -79,17 +79,15 @@
                         android:textSize="20sp" />
 
                     <EditText
-                        android:id="@+id/pala"
                         android:layout_width="158dp"
                         android:layout_height="wrap_content"
-                        android:hint="Pala" />
+                        android:hint="antiagua" />
                 </LinearLayout>
 
                 <Button
                     android:id="@+id/button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:onClick="Guardar"
                     android:text="Agregar a Carrito" />
 
             </LinearLayout>
@@ -117,9 +115,9 @@
                 android:paddingVertical="25dp">
 
                 <ImageView
-                    android:layout_width="72dp"
+                    android:layout_width="114dp"
                     android:layout_height="81dp"
-                    android:background="@drawable/carretilla"
+                    android:background="@drawable/botas"
                     android:padding="20dp" />
 
                 <Space
@@ -128,10 +126,10 @@
 
 
                 <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Carretilla. cuesta $1,100"
-                android:textAlignment="center" />
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cable industrial 20m. cuesta $900"
+                    android:textAlignment="center" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -150,7 +148,7 @@
                     <EditText
                         android:layout_width="158dp"
                         android:layout_height="wrap_content"
-                        android:hint="Carretilla" />
+                        android:hint="Botas" />
                 </LinearLayout>
 
                 <Button
@@ -161,9 +159,5 @@
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
-
-
-
-
     </androidx.gridlayout.widget.GridLayout>
 </RelativeLayout>
